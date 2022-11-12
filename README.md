@@ -6,6 +6,7 @@ This project is about to provide hashing tool that using SHA256 algorithm to has
 
 In the hashing project directory, you can run:
 
+### `npm i`
 ### `npm start`
 
 Runs the app in the development mode.\

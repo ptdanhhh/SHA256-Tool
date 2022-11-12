@@ -60,6 +60,7 @@ body,html{
   border: 1px solid #ececec;
   margin-top: 30px;
   flex: 1 1;
+  color: #565656;
 }
 
 .btn-in{

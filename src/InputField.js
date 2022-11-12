@@ -13,8 +13,8 @@ function InputField() {
 
   const handleHashValue = () =>{
     const hashed = sha256(inputValue);
-    setHashValue(hashed);
-    setInputValue("");
+    const upperHashed = hashed.toUpperCase();
+    setHashValue(upperHashed);
   } 
 
   return (
