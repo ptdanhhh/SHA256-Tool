@@ -3,7 +3,7 @@ Group 10:\
 \
 Danh Pham\
 Thinh Ngo\
-Eric Pham\
+Eric Pham
 
 This project is about to provide convenient hashing tool\
 that using SHA256 algorithm to hash the message.
@@ -12,10 +12,10 @@ that using SHA256 algorithm to hash the message.
 
 In the hashing project directory, you can run:
 
-First\
+First
 ### `npm i`
 
-Then\
+Then
 ### `npm start`
 
 Runs this tool in your browser.\
