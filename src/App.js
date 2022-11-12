@@ -1,7 +1,5 @@
-import InputField from './InputField.js';
 import Header from './Header.js';
-
-
+import InputField from './InputField.js';
 
 function App() {
   return (

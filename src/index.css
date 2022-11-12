@@ -1,3 +1,7 @@
+body,html{
+  padding: 0;
+  margin: 0;
+}
 .app {
   font-family: opensans;
 }
@@ -23,7 +27,9 @@
 
 .hash-content{
   flex-basis: 50%;
-  text-align: cente;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .hash-content h2{
@@ -32,12 +38,9 @@
 }
 
 .hash-in{
-  width: 540px;
-  height: 338px;
   background: white;
   border-radius: 5px;
   border: 1px solid #ececec;
-  margin-left: 57.2%;
 }
 
 .hash-in textarea{
@@ -53,12 +56,10 @@
 }
 
 .hash-out{
-  width: 540px;
-  height: 210px;
   border-radius: 5px;
   border: 1px solid #ececec;
   margin-top: 30px;
-  margin-left: 57.2%;
+  flex: 1 1;
 }
 
 .btn-in{
@@ -79,6 +80,7 @@
   padding: 10px 60px;
   border-radius: 200px;
   border: 1px solid #d3d3d3;
+  cursor: pointer;
 }
 
 .btn--hash{
@@ -103,10 +105,21 @@
 
 .sha-title{
   margin-left: 30px;
-  width: 540px;
   height: 579px;
   border-radius: 5px;
   border: 1px solid #ececec;
+}
+
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+.d-flex{
+  display: flex;
+  justify-content: center;
 }
 
 
