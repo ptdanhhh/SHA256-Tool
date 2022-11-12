@@ -39,7 +39,7 @@ function InputField() {
         {/* end hash-content */}
         <div className='sha-text'>
             <div className='sha-title'>
-              <h2>what is SHA-256?</h2>
+              <h2>What is SHA-256?</h2>
             </div>
         </div>
 
