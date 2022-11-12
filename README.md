@@ -1,6 +1,6 @@
 ## About
 Group 10:\
-\
+
 Danh Pham\
 Thinh Ngo\
 Eric Pham

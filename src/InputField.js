@@ -53,6 +53,15 @@ function InputField() {
         <div className="sha-text">
           <div className="sha-title">
             <h2>What is SHA-256?</h2>
+
+            <div className="sha-defi">
+              <p>The SHA-256 algorithm is one flavor of SHA-2 (Secure Hash Algorithm 2),
+                which was created by the National Security Agency in 2001 as a successor to SHA-1
+                where SHA stands for Secure Hash Algorithm.SHA256 algorithm generates an almost-unique,
+                fixed size 256-bit (32-byte) hash. Hash is so called a one way function
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
