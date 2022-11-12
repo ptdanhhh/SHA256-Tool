@@ -1,5 +1,5 @@
 ## About
-Group 10:\
+Group 10:
 
 Danh Pham\
 Thinh Ngo\
