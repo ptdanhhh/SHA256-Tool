@@ -19,7 +19,7 @@ Then
 ### `npm start`
 
 Runs this tool in your browser.\
-Open at [http://localhost:3000](http://localhost:3000).
+Open at [http://localhost:3000](http://localhost:3000)
 or https://cs166-sha256.web.app/
 
 
