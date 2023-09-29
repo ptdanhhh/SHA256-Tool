@@ -1,9 +1,7 @@
 ## About
-Group 10:
 
-Danh Pham\
-Thinh Ngo\
-Eric Pham
+
+
 
 This project is about to provide convenient hashing tool\
 that using SHA256 algorithm to hash the message.
