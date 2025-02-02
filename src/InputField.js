@@ -6,15 +6,14 @@ function InputField() {
   const [inputValue, setInputValue] = useState("");
   const [hashValue, setHashValue] = useState("");
 
-
   const handleClearValue = () => {
     setInputValue("");
-  }
+  };
 
-  const handleHashValue = () =>{
+  const handleHashValue = () => {
     const hashed = sha256(inputValue);
     setHashValue(hashed);
-  } 
+  };
 
   return (
     <section className="container">
@@ -33,23 +32,28 @@ function InputField() {
 
             <div className="btn-in">
               <div className="hashbtn">
-                <button className="btn btn--hash" onClick={handleHashValue}>Hash</button>
+                <button className="btn btn--hash" onClick={handleHashValue}>
+                  Hash
+                </button>
               </div>
 
               <div className="clearbtn">
-                <button className="btn btn--clear" onClick={handleClearValue}>Clear</button>
+                <button className="btn btn--clear" onClick={handleClearValue}>
+                  Clear
+                </button>
               </div>
             </div>
           </div>
 
           <div className="hash-out">
             <h2>SHA-256 Output:</h2>
-            <p>{hashValue&&hashValue.match(/.{1,4}/g).join(" ")}</p>
+            {/* <p>{hashValue && hashValue.match(/.{1,4}/g).join(" ")}</p> */}
+            <p>{hashValue}</p>
           </div>
         </div>
 
         {/* end hash-content */}
-        <div className="sha-text">
+        {/* <div className="sha-text">
           <div className="sha-title">
             <h2>What is SHA-256?</h2>
 
@@ -62,7 +66,7 @@ function InputField() {
             </div>
 
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
